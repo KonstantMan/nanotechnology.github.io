@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar {
+  font: 20px sans-serif;
+  background-color: rgba(47, 61, 189, 0.575);
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.menu-bar li {
+  padding: 13px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 180px;
+  margin-right: 20px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: rgb(15, 2, 2);
+  font-weight: 600;
+  text-align: center;
+}
+
+li:hover {
+  background-color:  rgb(91, 22, 202);
+  border-radius: 5px;
+  width: 180px;
+}
+
+
+.sub-menu1 {
+  display: none;
+
+}
+
+.active,
+.menu-bar ul li:hover .sub-menu1 {
+  display: block;
+  position: absolute; 
+  background-color: rgb(57, 68, 173);
+  margin-top: 17px;
+  margin-left: -29px;
+  border-radius: 10px;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+
+
+ 
+}
+
+
+.menu-bar ul li:hover .sub-menu1 ul {
+  display: block;
+  border-radius: 14px;
+  margin-top: 10px;
+}
+
+.main-content {
+  margin-right: 0px;
+  height: 600;
+  background: rgb(197, 197, 197);
+  color: rgb(0, 0, 0);
+  border-radius: 2px;
+  width: 100%;
+  padding-top: 100px;
+  display: block;
+}
+
+#introduction {
+  
+  text-align: justify;
+  text-justify: inter-word;
+  padding:10px 100px 10px 10px ;
+  font-size: large;
+  margin: 0;
+}
