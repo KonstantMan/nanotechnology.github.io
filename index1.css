@@ -1,0 +1,30 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+min-height:8 vh;
+background-color: rgb(48, 59, 156);
+
+}
+
+.logo{
+color: rgb(215, 226, 226);
+letter-spacing:5px ;
+font-size:20px;
+}
+
+.nav1{
+    color: rgb(215, 226, 226);
+    letter-spacing:4px ;
+    font-size:20px;
+    text-decoration: none;
+    display: flex;
+
+}
