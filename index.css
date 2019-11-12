@@ -58,8 +58,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: translateX(100%);
-  transition: transform 0.5s ease-in;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
   }
 
   .nav-links li {
@@ -71,9 +71,8 @@ nav {
     display: block;
   }
   .nav-active {
-    transform: translateX(0%);
+    opacity: 1;
   
   }
-
 
 }
