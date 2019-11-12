@@ -54,17 +54,18 @@ nav {
     right: 0px;
     height: 92vh;
     top: 60px;
-    background-color:rgb(21, 30, 131);
+    background-color: rgb(21, 30, 131);
     display: flex;
     flex-direction: column;
     align-items: center;
-  opacity: 0;
-  transition: opacity 0.5s ease-in;
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+    margin: 0%;
   }
 
   .nav-links li {
     opacity: 1;
-    padding-top:25px;
+    padding-top: 25px;
     padding-bottom: 20px;
   }
   .burger {
@@ -72,7 +73,5 @@ nav {
   }
   .nav-active {
     opacity: 1;
-  
   }
-
 }
