@@ -46,6 +46,6 @@ nav {
 
 @media screen and (max-width: 1300px) {
   body {
-    display: none;
+    background-color:red;
   }
 }
