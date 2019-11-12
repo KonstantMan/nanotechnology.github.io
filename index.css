@@ -9,8 +9,8 @@ nav{
 display: flex;
 justify-content: space-around;
 align-items: center;
-min-height:8 vh;
-background-color: rgb(48, 59, 156);
+min-height:8 px;
+background-color: rgb(21, 30, 131);
 
 }
 
