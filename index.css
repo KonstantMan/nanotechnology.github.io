@@ -54,7 +54,7 @@ nav {
     right: 0px;
     height: 92vh;
     top: 60px;
-    background-color: rgb(131, 21, 21);
+    background-color:rgb(21, 30, 131);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,9 @@ nav {
   }
 
   .nav-links li {
-    opacity: 0;
+    opacity: 1;
+    padding-top:25px;
+    padding-bottom: 20px;
   }
   .burger {
     display: block;
@@ -74,15 +76,4 @@ nav {
   }
 
 
-  @keyframes navLinkFade {
-    from {
-      opacity:0;
-      transform : translateX(50px)
-    }
-
-    to {
-      opacity:1;
-      transform : translateX(0px)
-    }
-  }
 }

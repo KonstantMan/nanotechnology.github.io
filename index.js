@@ -9,9 +9,7 @@ const navSlide = () => {
   });
 //Animate Links
 navLinks.forEach((link,index)=>{
-console.log(index);
-
-
+link.getElementsByClassName.animation=`navLinkFade 0.5s ease forwards ${index/7}s`
 });
 
 
