@@ -9,7 +9,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 8vh;
-  background: radial-gradient(rgb(21, 30, 131), rgb(100, 30, 40));
+  background: rgb(21, 30, 131);
 }
 
 .logo {
@@ -49,11 +49,12 @@ nav {
   body {
     overflow-x: hidden;
   }
+
   .nav-links {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 60px;
+    top: 8vh;
     background-color: rgb(21, 30, 131);
     display: flex;
     flex-direction: column;
