@@ -3,10 +3,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.body,
-.html {
-  min-height: 100%;
-}
 
 nav {
   display: flex;
@@ -30,6 +26,11 @@ footer {
   background-color: rgb(21, 42, 61);
   height: 10vh;
   color: aliceblue;
+  text-align: center;
+  padding-top: 25px;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: bold;
 }
 .logo {
   color: rgb(215, 226, 226);
@@ -76,24 +77,18 @@ footer {
     background-color: rgb(21, 30, 131);
     display: flex;
     flex-direction: column;
-    align-items: center;
     top: 8vh;
     opacity: 0;
     transition: opacity 0.6s ease-in;
-    margin: 0%;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    hyphens: auto;
-    word-wrap: none;
-    font: medium;
   }
 
   .nav-links li {
     padding-top: 0px;
     padding-bottom: 20px;
-    padding-right: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
   }
   .burger {
     display: block;
