@@ -52,6 +52,8 @@ footer {
   font-weight: bold;
   font-size: 18px;
 }
+.nav-links li:hover {
+}
 
 .burger {
   display: none;
