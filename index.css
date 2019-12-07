@@ -13,15 +13,19 @@ nav {
   font-family: Arial;
 }
 main {
-  background-color: rgba(194, 215, 216, 0.562);
+  background-color: rgba(13, 72, 75, 0.562);
   height: 80vh;
+  padding: 30px 300px 20px 300px;
 }
 p {
-  background: rgba(194, 215, 216, 0.562);
   font-family: Arial;
   width: 100%;
   height: 80vh;
+  color: rgb(250, 250, 250);
+  font-size: 15px;
+  font-weight: bold;
 }
+
 footer {
   background-color: rgb(21, 42, 61);
   height: 10vh;
@@ -36,6 +40,7 @@ footer {
   color: rgb(215, 226, 226);
   letter-spacing: 5px;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -43,6 +48,7 @@ footer {
   justify-content: space-between;
   width: 50%;
 }
+
 .nav-links li {
   list-style: none;
 }
@@ -52,9 +58,10 @@ footer {
   font-weight: bold;
   font-size: 18px;
 }
-.nav-links li:hover {
-}
 
+.nav-links ul li:hover {
+  background-color: rgb(215, 226, 226);
+}
 .burger {
   display: none;
   cursor: pointer;
