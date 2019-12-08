@@ -74,7 +74,14 @@ footer {
   body {
     overflow-x: hidden;
   }
-
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background: rgb(21, 30, 131);
+    font-family: Arial;
+  }
   .nav-links {
     position: absolute;
     right: 0px;
@@ -104,5 +111,25 @@ footer {
   main {
     background-color: rgba(13, 72, 75, 0.562);
     height: 80vh;
+  }
+
+  p {
+    font-family: Arial;
+    width: 100%;
+    height: 80vh;
+    color: rgb(250, 250, 250);
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: rgb(21, 42, 61);
+    height: 15vh;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-weight: bold;
   }
 }
