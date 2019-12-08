@@ -15,7 +15,6 @@ nav {
 main {
   background-color: rgba(13, 72, 75, 0.562);
   height: 80vh;
-  padding: 30px 300px 2px 300px;
 }
 p {
   font-family: Arial;
@@ -34,7 +33,7 @@ footer {
   padding-top: 25px;
   letter-spacing: 5px;
   font-size: 15px;
-  font-weight: bol d;
+  font-weight: bold;
 }
 .logo {
   color: rgb(215, 226, 226);
@@ -59,9 +58,6 @@ footer {
   font-size: 18px;
 }
 
-.nav-links ul li:hover {
-  background-color: rgb(215, 226, 226);
-}
 .burger {
   display: none;
   cursor: pointer;
@@ -104,5 +100,9 @@ footer {
   }
   .nav-active {
     opacity: 1;
+  }
+  main {
+    background-color: rgba(13, 72, 75, 0.562);
+    height: 80vh;
   }
 }
