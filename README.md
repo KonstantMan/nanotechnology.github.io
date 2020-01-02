@@ -12,3 +12,13 @@
 
 ## CNAME
 - nanotechnology.team
+
+---
+
+## Links
+
+- https://nanotechnology.team/
+
+- https://github.com/KonstantMan/nanotechnology.github.io
+
+- https://greekdigitalcommunity.slack.com/archives/C5RCH4MR8/p1575737388167300
