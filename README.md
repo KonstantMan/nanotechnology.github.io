@@ -11,4 +11,4 @@
 ---
 
 ## CNAME
--nanotechnology.team
+- nanotechnology.team
