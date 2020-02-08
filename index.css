@@ -1,9 +1,10 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+img.TopLogoImage {
+    width: 50px;
+    padding: 0px;
+    margin-right: 10px;
 }
 
+<<<<<<< HEAD
 nav {
   display: flex;
   justify-content: space-around;
@@ -134,3 +135,9 @@ footer {
     font-weight: bold;
   }
 }
+=======
+img.Nav-Link-Image {
+    width: 20px;
+    margin-right: 5px;
+}
+>>>>>>> 3e045463dc84cbb1e9bdc97a9310df7bf8ce8dc3
